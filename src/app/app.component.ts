@@ -6,5 +6,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'event';
+  title = 'clickevent';
+  clickeventone=0;
+  clickeventtwo=0;
+  getclickeventone(){
+    this.clickeventone+=1;
+  }
+  getclickeventtwo(){
+    this.clickeventtwo+=1;
+  }
 }
