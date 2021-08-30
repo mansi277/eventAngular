@@ -9,7 +9,7 @@ export class AppComponent {
   title = 'clickevent';
   clickeventone=0;
   clickeventtwo=0;
-  getclickeventone(){
+ cd(){
     this.clickeventone+=1;
   }
   getclickeventtwo(){
